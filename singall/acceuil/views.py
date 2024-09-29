@@ -9,7 +9,7 @@ def hello(request):
 def about(request):
     return HttpResponse('<h1>À propos</h1> <p>Nous adorons merch !</p>')
 
-def listings(request):
+def listing(request):
     return HttpResponse('<h1>Liste</h1> <p>Liste de tous les articles</p>')
 
 def contact(request):
